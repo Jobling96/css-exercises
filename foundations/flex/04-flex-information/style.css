@@ -5,11 +5,14 @@ body {
 img {
   width: 100px;
   height: 100px;
+
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.all-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This is how to create images inline with text underneath */
+.img1,
+.img2,
+.img3,
+.img4{
+  align-items: center;
+  justify-content: center;
+  margin-left: 52px;
+  width: 200px;
+  text-align: center;
 }
