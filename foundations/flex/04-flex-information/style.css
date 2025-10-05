@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -31,17 +32,35 @@ img {
 .all-info{
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 52px;  
+}
+/* Above sets everything in oneline and centers, this is the container. 
+Gap sets distance beteen picures/text */
+
+.info{ 
+  max-width: 200px;
 }
 
-/* This is how to create images inline with text underneath */
-.img1,
-.img2,
-.img3,
-.img4{
-  align-items: center;
-  justify-content: center;
-  margin-left: 52px;
-  width: 200px;
+/* Sets max width of each image and text */
+
+
+
+/* SOLUTION 
+
+body {
   text-align: center;
 }
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+} */
