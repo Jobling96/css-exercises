@@ -24,3 +24,105 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* Solution workings */
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+
+
+.content{
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap:16px
+}
+
+
+/* The below removes the link line and changes text color */
+a{
+  color: #666;
+  text-decoration: none;    
+}
+
+.buttons{
+  padding: 10px 16px;
+}
+
+.footer{
+  background-color: #eeeeee;
+}
+
+
+ul
+{
+  list-style-type: none;
+  display: flex;
+  gap:10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* My solution */
+/* 
+.left-links,
+.right-links,
+.li{
+color: #a59c9c;
+list-style: none;
+text-decoration: none;
+display: flex;
+gap:20px;
+padding: 10px;
+}
+
+.header,
+.li,
+.footer
+{  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer{
+  background-color: #eee;
+  justify-content: space-between;
+  display: flex;
+  flex:1;
+  align-items: center;
+  bottom: 0px;
+  display: flex;
+  min-height:0%;
+  position: fixed;
+  width:99%;
+  margin:0px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:100px;
+}
+
+.buttons{
+  padding: 20px;
+}
+
+*/
